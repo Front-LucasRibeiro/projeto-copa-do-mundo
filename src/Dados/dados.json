@@ -1,0 +1,111 @@
+{
+  "grupo": [
+    {
+      "nome": "A",
+      "times": [
+        {
+          "equipe": "Holanda",
+          "bandeira": "https://ssl.gstatic.com/onebox/media/sports/logos/8GEqzfLegwFFpe6X2BODTg_48x48.png",
+          "pontos": 7,
+          "pj": 3,
+          "vit": 2,
+          "e": 1,
+          "der": 0,
+          "gm": 5,
+          "gc": 1,
+          "sg": 4,
+          "ultimas5": ["vitoria","empate", "vitoria", "", ""]
+        },
+        {
+          "equipe": "Equador",
+          "pontos": 4,
+          "pj": 3,
+          "vit": 1,
+          "e": 1,
+          "der": 1,
+          "gm": 4,
+          "gc": 3,
+          "sg": 1,
+          "ultimas5": ["derrota","empate", "vitoria", "", ""]
+        },
+        {
+          "equipe": "Senegal",
+          "pontos": 6,
+          "pj": 3,
+          "vit": 2,
+          "e": 0,
+          "der": 1,
+          "gm": 5,
+          "gc": 4,
+          "sg": 1,
+          "ultimas5": ["vitoria","vitoria", "derrota", "", ""]
+        },
+        {
+          "equipe": "Catar",
+          "pontos": 0,
+          "pj": 3,
+          "vit": 0,
+          "e": 0,
+          "der": 3,
+          "gm": 1,
+          "gc": 7,
+          "sg": -6,
+          "ultimas5": ["derrota","derrota", "derrota", "", ""]
+        }
+      ]
+    },
+    {
+      "nome": "B",
+      "times": [
+        {
+          "equipe": "Inglaterra",
+          "pontos": 7,
+          "pj": 3,
+          "vit": 2,
+          "e": 1,
+          "der": 0,
+          "gm": 9,
+          "gc": 2,
+          "sg": 7,
+          "ultimas5": ["vitoria","empate", "vitoria", "", ""]
+        },
+        {
+          "equipe": "Estados Unidos",
+          "pontos": 5,
+          "pj": 3,
+          "vit": 1,
+          "e": 2,
+          "der": 0,
+          "gm": 2,
+          "gc": 1,
+          "sg": 1,
+          "ultimas5": ["vitoria","empate", "empate", "", ""]
+        },
+        {
+          "equipe": "Irã",
+          "pontos": 3,
+          "pj": 3,
+          "vit": 1,
+          "e": 0,
+          "der": 2,
+          "gm": 4,
+          "gc": 7,
+          "sg": -3,
+          "ultimas5": ["derrota","vitoria", "derrota", "", ""]
+        },
+        {
+          "equipe": "Gales",
+          "pontos": 1,
+          "pj": 3,
+          "vit": 0,
+          "e": 1,
+          "der": 2,
+          "gm": 1,
+          "gc": 6,
+          "sg": -5,
+          "ultimas5": ["derrota","derrota", "empate", "", ""]
+        }
+      ]
+    }
+  ]
+}
