@@ -5,7 +5,7 @@
       "times": [
         {
           "equipe": "Holanda",
-          "bandeira": "https://ssl.gstatic.com/onebox/media/sports/logos/8GEqzfLegwFFpe6X2BODTg_48x48.png",
+          "bandeira": "/assets/holanda.png",
           "pontos": 7,
           "pj": 3,
           "vit": 2,
@@ -14,10 +14,11 @@
           "gm": 5,
           "gc": 1,
           "sg": 4,
-          "ultimas5": ["vitoria","empate", "vitoria", "", ""]
+          "ultimas5": ["vitoria","empate", "vitoria", "vazio", "vazio"]
         },
         {
           "equipe": "Equador",
+          "bandeira": "/assets/equador.png",
           "pontos": 4,
           "pj": 3,
           "vit": 1,
@@ -26,10 +27,11 @@
           "gm": 4,
           "gc": 3,
           "sg": 1,
-          "ultimas5": ["derrota","empate", "vitoria", "", ""]
+          "ultimas5": ["derrota","empate", "vitoria", "vazio", "vazio"]
         },
         {
           "equipe": "Senegal",
+          "bandeira": "/assets/senegal.png",
           "pontos": 6,
           "pj": 3,
           "vit": 2,
@@ -38,10 +40,11 @@
           "gm": 5,
           "gc": 4,
           "sg": 1,
-          "ultimas5": ["vitoria","vitoria", "derrota", "", ""]
+          "ultimas5": ["vitoria","vitoria", "derrota", "vazio", "vazio"]
         },
         {
           "equipe": "Catar",
+          "bandeira": "/assets/catar.png",
           "pontos": 0,
           "pj": 3,
           "vit": 0,
@@ -50,7 +53,7 @@
           "gm": 1,
           "gc": 7,
           "sg": -6,
-          "ultimas5": ["derrota","derrota", "derrota", "", ""]
+          "ultimas5": ["derrota","derrota", "derrota", "vazio", "vazio"]
         }
       ]
     },
@@ -59,6 +62,7 @@
       "times": [
         {
           "equipe": "Inglaterra",
+          "bandeira": "/assets/inglaterra.png",
           "pontos": 7,
           "pj": 3,
           "vit": 2,
@@ -67,10 +71,11 @@
           "gm": 9,
           "gc": 2,
           "sg": 7,
-          "ultimas5": ["vitoria","empate", "vitoria", "", ""]
+          "ultimas5": ["vitoria","empate", "vitoria", "vazio", "vazio"]
         },
         {
           "equipe": "Estados Unidos",
+          "bandeira": "/assets/estados-unidos.png",
           "pontos": 5,
           "pj": 3,
           "vit": 1,
@@ -79,10 +84,11 @@
           "gm": 2,
           "gc": 1,
           "sg": 1,
-          "ultimas5": ["vitoria","empate", "empate", "", ""]
+          "ultimas5": ["vitoria","empate", "empate", "vazio", "vazio"]
         },
         {
           "equipe": "Irã",
+          "bandeira": "/assets/ira.png",
           "pontos": 3,
           "pj": 3,
           "vit": 1,
@@ -91,10 +97,11 @@
           "gm": 4,
           "gc": 7,
           "sg": -3,
-          "ultimas5": ["derrota","vitoria", "derrota", "", ""]
+          "ultimas5": ["derrota","vitoria", "derrota", "vazio", "vazio"]
         },
         {
           "equipe": "Gales",
+          "bandeira": "/assets/gales.png",
           "pontos": 1,
           "pj": 3,
           "vit": 0,
@@ -103,7 +110,349 @@
           "gm": 1,
           "gc": 6,
           "sg": -5,
-          "ultimas5": ["derrota","derrota", "empate", "", ""]
+          "ultimas5": ["derrota","derrota", "empate", "vazio", "vazio"]
+        }
+      ]
+    },
+    {
+      "nome": "C",
+      "times": [
+        {
+          "equipe": "Argentina",
+          "bandeira": "/assets/argentina.png",
+          "pontos": 6,
+          "pj": 3,
+          "vit": 2,
+          "e": 0,
+          "der": 1,
+          "gm": 5,
+          "gc": 2,
+          "sg": 3,
+          "ultimas5": ["vitoria","vitoria", "derrota", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Polônia",
+          "bandeira": "/assets/polonia.png",
+          "pontos": 4,
+          "pj": 3,
+          "vit": 1,
+          "e": 1,
+          "der": 1,
+          "gm": 2,
+          "gc": 2,
+          "sg": 0,
+          "ultimas5": ["derrota","vitoria", "empate", "vazio", "vazio"]
+        },
+        {
+          "equipe": "México",
+          "bandeira": "/assets/mexico.png",
+          "pontos": 4,
+          "pj": 3,
+          "vit": 1,
+          "e": 1,
+          "der": 1,
+          "gm": 2,
+          "gc": 3,
+          "sg": -1,
+          "ultimas5": ["vitoria","derrota", "empate", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Arábia Saudita",
+          "bandeira": "/assets/arabia-saudita.png",
+          "pontos": 3,
+          "pj": 3,
+          "vit": 1,
+          "e": 0,
+          "der": 2,
+          "gm": 3,
+          "gc": 5,
+          "sg": -2,
+          "ultimas5": ["derrota","derrota", "vitoria", "vazio", "vazio"]
+        }
+      ]
+    },
+    {
+      "nome": "D",
+      "times": [
+        {
+          "equipe": "França",
+          "bandeira": "/assets/franca.png",
+          "pontos": 6,
+          "pj": 3,
+          "vit": 2,
+          "e": 0,
+          "der": 1,
+          "gm": 6,
+          "gc": 3,
+          "sg": 3,
+          "ultimas5": ["derrota","vitoria", "vitoria", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Austrália",
+          "bandeira": "/assets/australia.png",
+          "pontos": 6,
+          "pj": 3,
+          "vit": 2,
+          "e": 0,
+          "der": 1,
+          "gm": 3,
+          "gc": 4,
+          "sg": -1,
+          "ultimas5": ["vitoria","vitoria", "derrota", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Tunísia",
+          "bandeira": "/assets/tunisia.png",
+          "pontos": 4,
+          "pj": 3,
+          "vit": 1,
+          "e": 1,
+          "der": 1,
+          "gm": 1,
+          "gc": 1,
+          "sg": 0,
+          "ultimas5": ["vitoria","derrota", "empate", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Dinamarca",
+          "bandeira": "/assets/dinamarca.png",
+          "pontos": 1,
+          "pj": 3,
+          "vit": 0,
+          "e": 1,
+          "der": 2,
+          "gm": 1,
+          "gc": 3,
+          "sg": -2,
+          "ultimas5": ["derrota","derrota", "empate", "vazio", "vazio"]
+        }
+      ]
+    },
+    {
+      "nome": "E",
+      "times": [
+        {
+          "equipe": "Japão",
+          "bandeira": "/assets/japao.png",
+          "pontos": 6,
+          "pj": 3,
+          "vit": 2,
+          "e": 0,
+          "der": 1,
+          "gm": 4,
+          "gc": 3,
+          "sg": 1,
+          "ultimas5": ["vitoria","derrota", "vitoria", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Espanha",
+          "bandeira": "/assets/espanha.png",
+          "pontos": 6,
+          "pj": 3,
+          "vit": 2,
+          "e": 0,
+          "der": 1,
+          "gm": 3,
+          "gc": 4,
+          "sg": -1,
+          "ultimas5": ["vitoria","vitoria", "derrota", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Tunísia",
+          "bandeira": "/assets/tunisia.png",
+          "pontos": 4,
+          "pj": 3,
+          "vit": 1,
+          "e": 1,
+          "der": 1,
+          "gm": 1,
+          "gc": 1,
+          "sg": 0,
+          "ultimas5": ["vitoria","derrota", "empate", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Dinamarca",
+          "bandeira": "/assets/dinamarca.png",
+          "pontos": 1,
+          "pj": 3,
+          "vit": 0,
+          "e": 1,
+          "der": 2,
+          "gm": 1,
+          "gc": 3,
+          "sg": -2,
+          "ultimas5": ["derrota","derrota", "empate", "vazio", "vazio"]
+        }
+      ]
+    },
+    {
+      "nome": "F",
+      "times": [
+        {
+          "equipe": "Marrocos",
+          "bandeira": "/assets/marrocos.png",
+          "pontos": 7,
+          "pj": 3,
+          "vit": 2,
+          "e": 1,
+          "der": 0,
+          "gm": 4,
+          "gc": 1,
+          "sg": 3,
+          "ultimas5": ["vitoria","vitoria", "empate", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Croácia",
+          "bandeira": "/assets/croacia.png",
+          "pontos": 5,
+          "pj": 3,
+          "vit": 1,
+          "e": 2,
+          "der": 0,
+          "gm": 4,
+          "gc": 1,
+          "sg": 3,
+          "ultimas5": ["empate","vitoria", "empate", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Bélgica",
+          "bandeira": "/assets/belgica.png",
+          "pontos": 4,
+          "pj": 3,
+          "vit": 1,
+          "e": 1,
+          "der": 1,
+          "gm": 1,
+          "gc": 2,
+          "sg": -1,
+          "ultimas5": ["empate","derrota", "vitoria", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Canadá",
+          "bandeira": "/assets/canada.png",
+          "pontos": 0,
+          "pj": 3,
+          "vit": 0,
+          "e": 0,
+          "der": 3,
+          "gm": 2,
+          "gc": 7,
+          "sg": -5,
+          "ultimas5": ["derrota","derrota", "derrota", "vazio", "vazio"]
+        }
+      ]
+    },
+    {
+      "nome": "G",
+      "times": [
+        {
+          "equipe": "Brasil",
+          "bandeira": "/assets/brasil.png",
+          "pontos": 6,
+          "pj": 3,
+          "vit": 2,
+          "e": 0,
+          "der": 1,
+          "gm": 3,
+          "gc": 1,
+          "sg": 2,
+          "ultimas5": ["derrota","vitoria", "vitoria", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Suíça",
+          "bandeira": "/assets/suica.png",
+          "pontos": 6,
+          "pj": 3,
+          "vit": 2,
+          "e": 0,
+          "der": 1,
+          "gm": 4,
+          "gc": 3,
+          "sg": 1,
+          "ultimas5": ["vitoria","derrota", "vitoria", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Camarões",
+          "bandeira": "/assets/camaroes.png",
+          "pontos": 4,
+          "pj": 3,
+          "vit": 1,
+          "e": 1,
+          "der": 1,
+          "gm": 4,
+          "gc": 4,
+          "sg": 0,
+          "ultimas5": ["vitoria","empate", "derrota", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Sérvia",
+          "bandeira": "/assets/servia.png",
+          "pontos": 1,
+          "pj": 3,
+          "vit": 0,
+          "e": 1,
+          "der": 2,
+          "gm": 5,
+          "gc": 8,
+          "sg": -3,
+          "ultimas5": ["derrota","empate", "derrota", "vazio", "vazio"]
+        }
+      ]
+    },
+    {
+      "nome": "H",
+      "times": [
+        {
+          "equipe": "Portugal",
+          "bandeira": "/assets/portugal.png",
+          "pontos": 6,
+          "pj": 3,
+          "vit": 2,
+          "e": 0,
+          "der": 1,
+          "gm": 6,
+          "gc": 4,
+          "sg": 2,
+          "ultimas5": ["derrota","vitoria", "vitoria", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Coreia do Sul",
+          "bandeira": "/assets/coreia-do-sul.png",
+          "pontos": 4,
+          "pj": 3,
+          "vit": 1,
+          "e": 1,
+          "der": 1,
+          "gm": 4,
+          "gc": 4,
+          "sg": 0,
+          "ultimas5": ["vitoria","derrota", "empate", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Uruguai",
+          "bandeira": "/assets/uruguai.png",
+          "pontos": 4,
+          "pj": 3,
+          "vit": 1,
+          "e": 1,
+          "der": 1,
+          "gm": 2,
+          "gc": 2,
+          "sg": 0,
+          "ultimas5": ["vitoria","derrota", "empate", "vazio", "vazio"]
+        },
+        {
+          "equipe": "Gana",
+          "bandeira": "/assets/gana.png",
+          "pontos": 3,
+          "pj": 3,
+          "vit": 1,
+          "e": 0,
+          "der": 2,
+          "gm": 5,
+          "gc": 7,
+          "sg": -2,
+          "ultimas5": ["derrota","vitoria", "derrota", "vazio", "vazio"]
         }
       ]
     }

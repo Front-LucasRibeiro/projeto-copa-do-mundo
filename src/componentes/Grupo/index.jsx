@@ -43,6 +43,15 @@ const Table = styled.table`
   td{
     padding-bottom: 8px;
     border-bottom: 1px solid #ddd;
+
+    &:nth-of-type(1){
+      display: flex;
+      align-items: center;
+
+      img{
+        margin: 0 8px;
+      }
+    }
   }
 
   ul{
@@ -109,11 +118,21 @@ const Grupo = () => {
                           <td>{time.sg}</td>
                           <td>
                             <ul>
-                              <li>{time.ultimas5[0]}</li>
-                              <li>{time.ultimas5[1]}</li>
-                              <li>{time.ultimas5[2]}</li>
-                              <li>{time.ultimas5[3]}</li>
-                              <li>{time.ultimas5[4]}</li>
+                              <li>
+                                <img src={'/assets/'+ time.ultimas5[0]+'.svg'} />
+                              </li>
+                              <li>
+                                <img src={'/assets/'+ time.ultimas5[1]+'.svg'} />
+                              </li>
+                              <li>
+                                <img src={'/assets/'+ time.ultimas5[2]+'.svg'} />
+                              </li>
+                              <li>
+                                <img src={'/assets/'+ time.ultimas5[3]+'.svg'} />
+                              </li>
+                              <li>
+                                <img src={'/assets/'+ time.ultimas5[4]+'.svg'} />
+                              </li>
                             </ul>
                           </td>
                         </tr>
