@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const Menu = () => {
   const [ativaMenu, setFechaMenu] = useState("");
@@ -42,7 +43,28 @@ const Menu = () => {
       cursor: pointer;
     }
   `
-
+  const rotas = [
+    {
+      label: "Fase de Grupos",
+      to: "/"
+    },
+    {
+      label: "Oitavas de Final",
+      to: "/oitavas-de-final"
+    },
+    {
+      label: "Quartas de Final",
+      to: "/quartas-de-final"
+    },
+    {
+      label: "Semifinal",
+      to: "/semifinal"
+    },
+    {
+      label: "Final",
+      to: "/final"
+    }
+  ]
 
 
   const fechaMenu = () => {
@@ -50,16 +72,21 @@ const Menu = () => {
   }
 
   return (
-    <Navegacao className={ativaMenu}>
-      <span className='fechar' onClick={ () => fechaMenu()}>&times;</span>
-      <ul>
-        <li>Fase de Grupos</li>
-        <li>Oitavas de Final</li>
-        <li>Quartas de Final</li>
-        <li>Semifinal</li>
-        <li>Final</li>
-      </ul>
-    </Navegacao>
+    <header>
+      <Navegacao className={ativaMenu}>
+        <span className='fechar' onClick={ () => fechaMenu()}>&times;</span>
+        <ul>
+          {rotas.map((rota,index) => {
+            return(
+              <li key={index}>
+                <Link to={rota.to}>{rota.label}</Link>
+              </li>
+            )
+          })}
+        </ul>
+        
+      </Navegacao>
+    </header>
   )
 }
 

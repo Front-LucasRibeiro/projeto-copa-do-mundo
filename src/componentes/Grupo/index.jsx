@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components'
-import dados from '../../Dados/dados.json'
+import dados from '../../dados/dados.json'
 
 const Titulo = styled.h3`
   color: #000;
