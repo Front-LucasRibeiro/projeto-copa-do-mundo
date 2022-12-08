@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Menu = () => {
   const [ativaMenu, setFechaMenu] = useState("");
+  const localizacao = useLocation()
 
   const Navegacao = styled.nav`
     width: 310px;
@@ -24,11 +25,19 @@ const Menu = () => {
       padding: 0;
       margin: 38px 0 0;
 
-
       li{
         color: #fff;
         margin: 18px 0;
         font-family: 'Arial', sans-serif;
+
+        a{
+          color: #fff;
+          text-decoration: none;
+        }
+
+        &.ativo{
+          font-weight: bold;
+        }
       }
     }
 
@@ -75,11 +84,13 @@ const Menu = () => {
     <header>
       <Navegacao className={ativaMenu}>
         <span className='fechar' onClick={ () => fechaMenu()}>&times;</span>
-        <ul>
+        <ul className="lista-menu">
           {rotas.map((rota,index) => {
             return(
-              <li key={index}>
-                <Link to={rota.to}>{rota.label}</Link>
+              <li key={index} className={`${localizacao.pathname === rota.to ? "ativo": "" }`}>
+                <Link to={rota.to}>
+                  {rota.label}
+                </Link>
               </li>
             )
           })}
