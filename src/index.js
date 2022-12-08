@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Router from './routes'
 import styled from 'styled-components';
-import './index.css'
+import 'index.css'
 
 const Conteudo = styled.section`
   width: calc(100% - 310px);

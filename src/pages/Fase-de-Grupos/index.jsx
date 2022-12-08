@@ -1,4 +1,4 @@
-import Grupo from '../../componentes/Grupo';
+import Grupo from 'componentes/Grupo';
 import styled from 'styled-components';
 
 const Titulo = styled.h2`
